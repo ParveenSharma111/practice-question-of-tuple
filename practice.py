@@ -81,12 +81,16 @@
 
 # Write a program to check whether a given number exists in a tuple.
 # Convert this tuple into a list:
-numbers = (1, 2, 3, 4, 5, 6, 7, 8)
-num = int(input("Enter a number:"))
-if num in numbers:
-    print("number exist in tuple")
-else:
-    print("number not exist in tuple")
+# numbers = (1, 2, 3, 4, 5, 6, 7, 8)
+# num = int(input("Enter a number:"))
+# if num in numbers:
+#     print("number exist in tuple")
+# else:
+#     print("number not exist in tuple")
    
 
+# Convert this tuple into a list:
+mytuple = ("apple", "banana", "cherry")
+y = list(mytuple)
+print(y)
 
